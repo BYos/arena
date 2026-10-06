@@ -1,0 +1,20 @@
+{
+  "name": "arena-eat",
+  "version": "0.1.0",
+  "description": "ARENA EAT – real-time multiplayer battle royale (MVP)",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "build": "node tools/build-standalone.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^5.2.1",
+    "socket.io": "^4.8.4"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
